@@ -1,0 +1,97 @@
+﻿body{font-size:14px;font-family:"宋体";}
+#nav{width:1000px; height:30px; margin:0 auto;}
+#navlist
+{
+border-bottom: 1px solid #ccc;
+margin: 0;
+padding-bottom: 19px;
+padding-left: 10px;
+}
+
+#navlist ul, #navlist li
+{
+display: inline;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#navlist a:link, #navlist a:visited
+{
+background: #E8EBF0;
+border: 1px solid #ccc;
+color: #666;
+float: left;
+font-size: small;
+font-weight: normal;
+line-height: 14px;
+margin-right: 8px;
+padding: 2px 10px 2px 10px;
+text-decoration: none;
+}
+
+#navlist a:link#current, #navlist a:visited#current
+{
+background: #fff;
+border-bottom: 1px solid #fff;
+color: #000;
+}
+
+#navlist a:hover { color: #f00; }
+
+body.section-1 #navlist li#nav-1 a, 
+body.section-2 #navlist li#nav-2 a,
+body.section-3 #navlist li#nav-3 a,
+body.section-4 #navlist li#nav-4 a
+{
+background: #fff;
+border-bottom: 1px solid #fff;
+color: #000;
+}
+
+#navlist #subnav-1,
+#navlist #subnav-2,
+#navlist #subnav-3,
+#navlist #subnav-4
+{
+display: none;
+width: 90%;
+}
+
+body.section-1 #navlist ul#subnav-1, 
+body.section-2 #navlist ul#subnav-2,
+body.section-3 #navlist ul#subnav-3,
+body.section-4 #navlist ul#subnav-4
+{
+display: inline;
+left: 10px;
+position: absolute;
+top: 95px;
+}
+
+body.section-1 #navlist ul#subnav-1 a, 
+body.section-2 #navlist ul#subnav-2 a,
+body.section-3 #navlist ul#subnav-3 a,
+body.section-4 #navlist ul#subnav-4 a
+{
+background: #fff;
+border: none;
+border-left: 1px solid #ccc;
+color: #999;
+font-size: smaller;
+font-weight: bold;
+line-height: 10px;
+margin-right: 4px;
+padding: 2px 10px 2px 10px;
+text-decoration: none;
+}
+
+#navlist ul a:hover { color: #f00 !important; }
+
+#npc{margin:0 auto;width:800px;height:500px;text-align:left;margin-top:10px;}
+.value{width:300px;height:30px;margin:0 auto;margin-top:30px;}
+.value input{width:50px;height:20px;text-align:center;*width:40px;*height:15px;}
+.value li{list-style-type:none;float:left;}
+.value li span{font-size:12px;color:#ff0000;padding:4px 5px 0 0;}
+.value span{float:left;}
+.submit input{margin-left:10px;width:80px;height:30px;border:1px solid #999;background: #E8EBF0;display: block;cursor:pointer}
